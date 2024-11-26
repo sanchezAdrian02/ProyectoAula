@@ -50,30 +50,29 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="index.html" class="active">Inicio</a></li>
+          <li><a href="about.html">Nosotros</a></li>
+          <li><a href="services.html">Recetas</a></li>
+          <li><a href="projects.html">Galería</a></li>
+          <li><a href="blog.html">Consejos</a></li>
+          <li class="dropdown"><a href="#"><span>Postres</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              <li><a href="#">Pasteles</a></li>
+              <li><a href="#">Galletas</a></li>
+              <li><a href="#">Panadería</a></li>
+              <li><a href="#">Otros Postres</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="dropdown"><a href="#"><span>Técnicas</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Decoración</a></li>
+              <li><a href="#">Manejo de Ingredientes</a></li>
+              <li><a href="#">Horneado Perfecto</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contacto</a></li>
         </ul>
+        
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
@@ -90,8 +89,8 @@
           <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-6 text-center">
               <h2>Bienvenidos a CakeMaster</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <a href="#get-started" class="btn-get-started">Get Started</a>
+              <p>Aquí encontrarás recetas fáciles y prácticas para disfrutar del mundo de la repostería. Ya sea que estés buscando algo simple para tu día a día o te atrevas con recetas más elaboradas, tenemos todo lo que necesitas para que puedas crear deliciosos postres en casa. Compartimos consejos, trucos y opciones para que puedas mejorar tus habilidades y sorprender a tus seres queridos con cada creación. ¡Anímate a probar y a disfrutar del proceso de hornear!</p>
+              <a href="#get-started" class="btn-get-started">¡Vámos allá!</a>
             </div>
           </div>
         </div>
@@ -132,401 +131,391 @@
     </section><!-- /Hero Section -->
 
     <!-- Get Started Section -->
-    <section id="get-started" class="get-started section">
+<section id="get-started" class="get-started section">
 
-      <div class="container">
+  <div class="container">
 
-        <div class="row justify-content-between gy-4">
+    <div class="row justify-content-between gy-4">
 
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <div class="content">
-              <h3>Minus hic non reiciendis ea possimus at quia.</h3>
-              <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus dicta.
-              </p>
-              <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
+      <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+        <div class="content">
+          <h3>¿Estás listo para crear tu tarta perfecta?</h3>
+          <p>En CakeMaster, te ayudamos a dar forma a tus sueños dulces. Ya sea para una celebración especial o un regalo único, tenemos todo lo que necesitas para que tu pastel sea inolvidable.</p>
+          <p>Desde tartas clásicas hasta postres innovadores, ofrecemos una amplia variedad de opciones que se ajustan a tus gustos y necesidades. ¡Comienza hoy mismo tu proyecto repostero con nosotros!</p>
+        </div>
+      </div>
+
+      <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
+        <form action="forms/quote.php" method="post" class="php-email-form">
+          <h3>Solicita tu presupuesto</h3>
+          <p>Cuéntanos qué necesitas y te enviaremos un presupuesto personalizado. ¡Es fácil y rápido!</p>
+          <div class="row gy-3">
+
+            <div class="col-12">
+              <input type="text" name="name" class="form-control" placeholder="Tu nombre" required="">
+            </div>
+
+            <div class="col-12">
+              <input type="email" class="form-control" name="email" placeholder="Tu correo electrónico" required="">
+            </div>
+
+            <div class="col-12">
+              <input type="text" class="form-control" name="phone" placeholder="Tu teléfono" required="">
+            </div>
+
+            <div class="col-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Detalles de tu pedido (tipo de pastel, temática, etc.)" required=""></textarea>
+            </div>
+
+            <div class="col-12 text-center">
+              <div class="loading">Cargando...</div>
+              <div class="error-message"></div>
+              <div class="sent-message">¡Tu solicitud ha sido enviada con éxito! Te contactaremos pronto.</div>
+
+              <button type="submit">Solicitar presupuesto</button>
+            </div>
+
+          </div>
+        </form>
+      </div><!-- End Quote Form -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Get Started Section -->
+
+    <!-- Postres Destacados Section -->
+<section id="constructions" class="constructions section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Postres Destacados</h2>
+    <p>Explora nuestras deliciosas creaciones, hechas con pasión y los mejores ingredientes.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-item">
+          <div class="row">
+            <div class="col-xl-5">
+              <div class="card-bg"><img src="assets/img/constructions-1.jpg" alt="Tarta de Chocolate"></div>
+            </div>
+            <div class="col-xl-7 d-flex align-items-center">
+              <div class="card-body">
+                <h4 class="card-title">Tarta de Chocolate</h4>
+                <p>Una deliciosa tarta de chocolate con un toque especial de avellanas, ideal para cualquier ocasión.</p>
+              </div>
             </div>
           </div>
-
-          <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
-            <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>Get a quote</h3>
-              <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
-              <div class="row gy-3">
-
-                <div class="col-12">
-                  <input type="text" name="name" class="form-control" placeholder="Name" required="">
-                </div>
-
-                <div class="col-12 ">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required="">
-                </div>
-
-                <div class="col-12">
-                  <input type="text" class="form-control" name="phone" placeholder="Phone" required="">
-                </div>
-
-                <div class="col-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
-
-                  <button type="submit">Get a quote</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Quote Form -->
-
         </div>
+      </div><!-- End Card Item -->
 
-      </div>
-
-    </section><!-- /Get Started Section -->
-
-    <!-- Constructions Section -->
-    <section id="constructions" class="constructions section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Constructions</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/constructions-1.jpg" alt=""></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Eligendi omnis sunt veritatis.</h4>
-                    <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
-                  </div>
-                </div>
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="card-item">
+          <div class="row">
+            <div class="col-xl-5">
+              <div class="card-bg"><img src="assets/img/constructions-2.jpg" alt="Galletas Decoradas"></div>
+            </div>
+            <div class="col-xl-7 d-flex align-items-center">
+              <div class="card-body">
+                <h4 class="card-title">Galletas Decoradas</h4>
+                <p>Galletas personalizadas para cumpleaños, bodas y eventos, decoradas con diseños únicos y coloridos.</p>
               </div>
             </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/constructions-2.jpg" alt=""></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Possimus ut sed velit assumenda</h4>
-                    <p>Sunt deserunt maiores voluptatem autem est rerum perferendis rerum blanditiis. Est laboriosam qui iste numquam laboriosam voluptatem architecto. Est laudantium sunt at quas aut hic. Eum dignissimos.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/constructions-3.jpg" alt=""></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Error beatae dolor inventore aut</h4>
-                    <p>Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam quae quaerat ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit. Ut sunt temporibus nulla culpa.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/constructions-4.jpg" alt=""></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Expedita voluptas ut ut nesciunt</h4>
-                    <p>Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos doloremque architecto illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut aliquid ea dolores libero nobis.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
+          </div>
         </div>
+      </div><!-- End Card Item -->
 
-      </div>
-
-    </section><!-- /Constructions Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-mountain-city"></i>
-              </div>
-              <h3>Nesciunt Mete</h3>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="card-item">
+          <div class="row">
+            <div class="col-xl-5">
+              <div class="card-bg"><img src="assets/img/constructions-3.jpg" alt="Pastel de Fresa"></div>
             </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+            <div class="col-xl-7 d-flex align-items-center">
+              <div class="card-body">
+                <h4 class="card-title">Pastel de Fresa</h4>
+                <p>Un pastel suave con capas de fresas frescas y crema batida, perfecto para los amantes de los sabores frutales.</p>
               </div>
-              <h3>Eosle Commodi</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-compass-drafting"></i>
-              </div>
-              <h3>Ledo Markt</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-trowel-bricks"></i>
-              </div>
-              <h3>Asperiores Commodit</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-helmet-safety"></i>
-              </div>
-              <h3>Velit Doloremque</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
-              </div>
-              <h3>Dolori Architecto</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
+          </div>
         </div>
+      </div><!-- End Card Item -->
 
-      </div>
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="card-item">
+          <div class="row">
+            <div class="col-xl-5">
+              <div class="card-bg"><img src="assets/img/constructions-4.jpg" alt="Cupcakes Decorados"></div>
+            </div>
+            <div class="col-xl-7 d-flex align-items-center">
+              <div class="card-body">
+                <h4 class="card-title">Cupcakes Decorados</h4>
+                <p>Exquisitos cupcakes con diferentes sabores y decoraciones, ideales para todo tipo de eventos o para un antojo personal.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- End Card Item -->
 
-    </section><!-- /Services Section -->
+    </div>
+
+  </div>
+
+</section><!-- /Postres Destacados Section -->
+
+    <!-- Servicios Section -->
+<section id="services" class="services section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Servicios</h2>
+    <p>Ofrecemos una amplia gama de servicios para hacer realidad tus postres soñados.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-cake-candles"></i>
+          </div>
+          <h3>Pasteles Personalizados</h3>
+          <p>Te ofrecemos pasteles personalizados para cualquier ocasión, adaptándonos a tus gustos y necesidades.</p>
+          <a href="#" class="readmore stretched-link">Leer más <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-cookie"></i>
+          </div>
+          <h3>Galletas Decoradas</h3>
+          <p>Galletas decoradas de manera única, perfectas para regalar o disfrutar en cualquier celebración.</p>
+          <a href="#" class="readmore stretched-link">Leer más <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-bread-slice"></i>
+          </div>
+          <h3>Panadería Artesanal</h3>
+          <p>Te ofrecemos panadería artesanal, hecha con los mejores ingredientes y la técnica adecuada.</p>
+          <a href="#" class="readmore stretched-link">Leer más <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-pizza-slice"></i>
+          </div>
+          <h3>Postres Especiales</h3>
+          <p>Desde tiramisú hasta cheesecake, ofrecemos postres deliciosos para todos los gustos.</p>
+          <a href="#" class="readmore stretched-link">Leer más <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-star icon-dark"></i>
+          </div>
+          <h3>Decoración de Pasteles</h3>
+          <p>Transformamos tus ideas en arte comestible, con decoraciones personalizadas para todo tipo de evento.</p>
+          <a href="#" class="readmore stretched-link">Leer más <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-truck"></i>
+          </div>
+          <h3>Entrega a Domicilio</h3>
+          <p>Te llevamos tus postres favoritos directamente a tu puerta, para que disfrutes sin preocuparte de nada.</p>
+          <a href="#" class="readmore stretched-link">Leer más <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div><!-- End Service Item -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Servicios Section -->
 
     <!-- Alt Services Section -->
-    <section id="alt-services" class="alt-services section">
+<section id="alt-services" class="alt-services section">
 
-      <div class="container">
+  <div class="container">
 
-        <div class="row justify-content-around gy-4">
-          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/alt-services.jpg" alt=""></div>
+    <div class="row justify-content-around gy-4">
+      <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/alt-services.jpg" alt=""></div>
 
-          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+      <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+        <h3>Descubre nuestras técnicas y consejos únicos</h3>
+        <p>Explora nuestra variedad de técnicas y consejos que harán de tu repostería una experiencia única. Desde la decoración hasta el horneado perfecto, todo lo que necesitas está aquí.</p>
 
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-easel flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-patch-check flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-brightness-high flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Dine Pad</a></h4>
-                <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
-              <i class="bi bi-brightness-high flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Tride clov</a></h4>
-                <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
-              </div>
-            </div><!-- End Icon Box -->
-
+        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+          <i class="bi bi-palette flex-shrink-0"></i>
+          <div>
+            <h4><a href="" class="stretched-link">Técnicas de Decoración</a></h4>
+            <p>Aprende cómo decorar tus postres con estilo y creatividad. Consejos útiles para hacer de cada creación una obra de arte.</p>
           </div>
-        </div>
+        </div><!-- End Icon Box -->
+
+        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+          <i class="bi bi-basket flex-shrink-0"></i>
+          <div>
+            <h4><a href="" class="stretched-link">Manejo de Ingredientes</a></h4>
+            <p>Conoce los mejores ingredientes y cómo utilizarlos para obtener resultados excepcionales. La clave está en la calidad de lo que usas.</p>
+          </div>
+        </div><!-- End Icon Box -->
+
+        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
+          <i class="bi bi-fire flex-shrink-0"></i>
+          <div>
+            <h4><a href="" class="stretched-link">Horneado Perfecto</a></h4>
+            <p>Domina el arte del horneado. Consejos para obtener texturas y sabores perfectos en cada postre que prepares.</p>
+          </div>
+        </div><!-- End Icon Box -->
+
+        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
+          <i class="bi bi-cup flex-shrink-0"></i>
+          <div>
+            <h4><a href="" class="stretched-link">Recetas Exclusivas</a></h4>
+            <p>Explora nuestras recetas más exclusivas, perfectas para cada ocasión. Desde clásicos hasta innovaciones sorprendentes.</p>
+          </div>
+        </div><!-- End Icon Box -->
 
       </div>
+    </div>
 
-    </section><!-- /Alt Services Section -->
+  </div>
+
+</section><!-- /Alt Services Section -->
 
     <!-- Features Section -->
-    <section id="features" class="features section">
+<section id="features" class="features section">
+  <div class="container">
+    <!-- Tabs -->
+    <ul class="nav nav-tabs row g-2 d-flex" data-aos="fade-up" data-aos-delay="100" role="tablist">
+      <li class="nav-item col-3" role="presentation">
+        <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1" aria-selected="true" role="tab">
+          <h4>Recetas Exclusivas</h4>
+        </a>
+      </li>
+      <li class="nav-item col-3" role="presentation">
+        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2" aria-selected="false" tabindex="-1" role="tab">
+          <h4>Técnicas Especializadas</h4>
+        </a>
+      </li>
+      <li class="nav-item col-3" role="presentation">
+        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3" aria-selected="false" tabindex="-1" role="tab">
+          <h4>Consejos Útiles</h4>
+        </a>
+      </li>
+      <li class="nav-item col-3" role="presentation">
+        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4" aria-selected="false" tabindex="-1" role="tab">
+          <h4>Inspiración Creativa</h4>
+        </a>
+      </li>
+    </ul>
 
-      <div class="container">
-
-        <ul class="nav nav-tabs row  g-2 d-flex" data-aos="fade-up" data-aos-delay="100" role="tablist">
-
-          <li class="nav-item col-3" role="presentation">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1" aria-selected="true" role="tab">
-              <h4>Modisit</h4>
-            </a>
-          </li><!-- End tab nav item -->
-
-          <li class="nav-item col-3" role="presentation">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2" aria-selected="false" tabindex="-1" role="tab">
-              <h4>Praesenti</h4>
-            </a><!-- End tab nav item -->
-
-          </li>
-          <li class="nav-item col-3" role="presentation">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3" aria-selected="false" tabindex="-1" role="tab">
-              <h4>Explica</h4>
-            </a>
-          </li><!-- End tab nav item -->
-
-          <li class="nav-item col-3" role="presentation">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4" aria-selected="false" tabindex="-1" role="tab">
-              <h4>Nostrum</h4>
-            </a>
-          </li><!-- End tab nav item -->
-
-        </ul>
-
-        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="tab-pane fade active show" id="features-tab-1" role="tabpanel">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Voluptatem dignissimos provident</h3>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-1.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End tab content item -->
-
-          <div class="tab-pane fade" id="features-tab-2" role="tabpanel">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Neque exercitationem debitis</h3>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-2.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End tab content item -->
-
-          <div class="tab-pane fade" id="features-tab-3" role="tabpanel">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Voluptatibus commodi accusamu</h3>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
-                </ul>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-3.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End tab content item -->
-
-          <div class="tab-pane fade" id="features-tab-4" role="tabpanel">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Omnis fugiat ea explicabo sunt</h3>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-4.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End tab content item -->
-
+    <!-- Tab Content -->
+    <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+      <!-- Tab 1 -->
+      <div class="tab-pane fade active show" id="features-tab-1" role="tabpanel">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+            <h3>Descubre las Recetas Exclusivas de CakeMaster</h3>
+            <p class="fst-italic">
+              Encuentra recetas que destacan por su sabor y diseño. Desde pasteles clásicos hasta creaciones modernas que impresionan.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> <span>Fácil de seguir, incluso para principiantes.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Ingredientes accesibles para todos.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Trucos secretos para garantizar un éxito seguro.</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="assets/img/features-1.jpg" alt="Recetas Exclusivas" class="img-fluid">
+          </div>
         </div>
-
       </div>
 
-    </section><!-- /Features Section -->
+      <!-- Tab 2 -->
+      <div class="tab-pane fade" id="features-tab-2" role="tabpanel">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+            <h3>Domina Técnicas Únicas para Perfeccionar tus Postres</h3>
+            <p class="fst-italic">
+              Aprende las técnicas más innovadoras y clásicas para llevar tu repostería al siguiente nivel.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> <span>Decoraciones profesionales al alcance de todos.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Técnicas de horneado para resultados perfectos.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Tips para lograr texturas y acabados únicos.</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="assets/img/features-2.jpg" alt="Técnicas Especializadas" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 3 -->
+      <div class="tab-pane fade" id="features-tab-3" role="tabpanel">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+            <h3>Consejos y Trucos que Marcan la Diferencia</h3>
+            <p class="fst-italic">
+              Simplifica el proceso con tips prácticos que resuelven problemas comunes y optimizan resultados.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> <span>Cómo evitar que los pasteles se hundan.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Almacenamiento perfecto para conservar la frescura.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Soluciones rápidas para errores en la cocina.</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="assets/img/features-3.jpg" alt="Consejos Útiles" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 4 -->
+      <div class="tab-pane fade" id="features-tab-4" role="tabpanel">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+            <h3>Encuentra Ideas para Crear Obras Maestras</h3>
+            <p class="fst-italic">
+              Inspírate con diseños y sabores únicos que harán destacar tus postres en cualquier ocasión.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> <span>Inspiración para temáticas y eventos especiales.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Combinaciones de sabores poco convencionales.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Consejos para crear tu propio estilo en la repostería.</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="assets/img/features-4.jpg" alt="Inspiración Creativa" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Projects Section -->
     <section id="projects" class="projects section">
